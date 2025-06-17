@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+
+#game-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.col {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+}
+
